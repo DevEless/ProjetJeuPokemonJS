@@ -1,8 +1,7 @@
-let button = document.getElementById("button")
-let image = document.getElementById("image")
-let pokeNumber = document.getElementById("number")
-let pokeName = document.getElementById("name")
-let pokeType = document.getElementById("type")
+import {
+    button, image, pokeNumber, pokeName, pokeType
+} from "./modules/variable.js"
+
 
 const changePokemon = async () => {
     let randomnumber = Math.ceil(Math.random() *900 + 1);
