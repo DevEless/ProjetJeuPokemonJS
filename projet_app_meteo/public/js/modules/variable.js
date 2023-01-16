@@ -1,4 +1,4 @@
-
+export let button = document.getElementById("button")
 export let image = document.getElementById("image")
 export let pokeNumber = document.getElementById("number")
 export let pokeName = document.getElementById("name")

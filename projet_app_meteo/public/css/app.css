@@ -9,3 +9,10 @@ body{
     font-family: 'Pokemon Solid', sans-serif;
 
 }
+#button{
+    height: 50px;
+    margin-top: 2%;
+border-radius: 15%;
+    border: red 1px solid;
+    background-color: rgba(0, 0, 255, 0.349);
+}
