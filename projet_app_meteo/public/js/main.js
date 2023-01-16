@@ -30,11 +30,11 @@ const changePokemon = async () => {
     console.log(response2)
 
     image.src = response.sprites.front_default;
-    pokeNumber.textContent = `#${response.id}`;
+
     pokeName.textContent = response.name;
     pokeType.textContent = response.types[0].type.name;
     image2.src = response2.sprites.front_default;
-    pokeNumber2.textContent = `#${response2.id}`;
+
     pokeName2.textContent = response2.name;
     pokeType2.textContent = response2.types[0].type.name;
 
